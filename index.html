@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gran fiesta</title>
+	
+</head>
+<body>
+	<h1>Bienvenido a la Gran Fiesta</h1>
+	<p>Por favor, ingresa tu nombre:</p>
+	<button onclick="procesarDatos()">Ingresar nombre</button>
+	<div id="resultado"></div>
+	<p>¿Cuántos años tienes?</p>
+	<input type="text" id="edad">
+	<button onclick="verificarEdad()">Verificar edad</button>
+	<div id="mensaje-edad"></div>
+	<label for="invitados">Número de invitados:</label>
+    <input type="number" id="invitados"><br>
+    <button onclick="calcularBebidas()">Calcular bebidas</button><br><br>
+    <div id="resultado"></div>
+    <div>
+        <button onclick="agregarInvitados()">Agregar invitados</button> 
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
